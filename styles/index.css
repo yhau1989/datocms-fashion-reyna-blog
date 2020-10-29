@@ -3,3 +3,15 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+
+.topLabel {
+    background: linear-gradient(
+      to right, 
+      hsl(280, 100%, 50%), 
+      hsl(313, 100%, 50%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
