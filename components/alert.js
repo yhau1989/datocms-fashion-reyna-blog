@@ -17,7 +17,7 @@ export default function Alert({ preview }) {
               Visita mi sitio web{' '} 
               <a
                 href="/api/exit-preview"
-                className="underline hover:text-cyan duration-200 transition-colors"
+                className="text-pink-500 underline"
               >
                 Click here
               </a>{' '}
@@ -28,7 +28,7 @@ export default function Alert({ preview }) {
               Visita mi sitio web{' '} 
               <a
                 href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-success duration-200 transition-colors"
+                className="text-pink-500 underline"
               >
                 fashionreyna.com
               </a> 👑
