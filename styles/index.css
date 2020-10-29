@@ -13,5 +13,8 @@
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
+  }
+
+  .link_blog{
+    color: hsl(313, 100%, 50%);
   }

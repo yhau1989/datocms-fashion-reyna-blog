@@ -17,7 +17,7 @@ export default function Alert({ preview }) {
               Visita mi sitio web{' '} 
               <a
                 href="/api/exit-preview"
-                className="text-pink-500 underline"
+                className="topLabel underline"
               >
                 Click here
               </a>{' '}
@@ -25,10 +25,10 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Visita mi sitio web{' '} 
+              Muy pronto podras comprar en tienda online{' '} 
               <a
                 href={`https://github.com/zeit/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="text-pink-500 underline"
+                className="topLabel underline"
               >
                 fashionreyna.com
               </a> 👑

@@ -29,7 +29,7 @@ export default function Post({ post, morePosts, preview }) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Fashion Reyna Blog with {CMS_NAME}
+                  {post.title} | Fashion Blog by Fashion Reyna 
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
